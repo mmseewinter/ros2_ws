@@ -1,0 +1,32 @@
+[0.819s] Invoking command in '/home/seewnter/ros2_ws/src/my_ros2_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seewnter/ros2_ws/build/my_ros2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/seewnter/ros2_ws/build/my_ros2_pkg/build install --record /home/seewnter/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.000s] creating ../../build/my_ros2_pkg/my_ros2_pkg.egg-info
+[1.011s] writing ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/dependency_links.txt
+[1.012s] writing requirements to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/requires.txt
+[1.012s] writing top-level names to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/top_level.txt
+[1.012s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[1.035s] reading manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[1.036s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[1.036s] running build
+[1.036s] running build_py
+[1.036s] creating /home/seewnter/ros2_ws/build/my_ros2_pkg/build
+[1.036s] creating /home/seewnter/ros2_ws/build/my_ros2_pkg/build/lib
+[1.036s] creating /home/seewnter/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[1.036s] copying my_ros2_pkg/__init__.py -> /home/seewnter/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[1.037s] running install
+[1.041s] running install_lib
+[1.052s] creating /home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg
+[1.052s] copying /home/seewnter/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/__init__.py -> /home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg
+[1.052s] byte-compiling /home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg/__init__.py to __init__.cpython-312.pyc
+[1.053s] running install_data
+[1.053s] creating /home/seewnter/ros2_ws/install/my_ros2_pkg/share/ament_index
+[1.053s] creating /home/seewnter/ros2_ws/install/my_ros2_pkg/share/ament_index/resource_index
+[1.053s] creating /home/seewnter/ros2_ws/install/my_ros2_pkg/share/ament_index/resource_index/packages
+[1.053s] copying resource/my_ros2_pkg -> /home/seewnter/ros2_ws/install/my_ros2_pkg/share/ament_index/resource_index/packages
+[1.053s] copying package.xml -> /home/seewnter/ros2_ws/install/my_ros2_pkg/share/my_ros2_pkg
+[1.053s] running install_egg_info
+[1.066s] Copying ../../build/my_ros2_pkg/my_ros2_pkg.egg-info to /home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg-0.0.0-py3.12.egg-info
+[1.068s] running install_scripts
+[1.165s] writing list of installed files to '/home/seewnter/ros2_ws/build/my_ros2_pkg/install.log'
+[1.183s] Invoked command in '/home/seewnter/ros2_ws/src/my_ros2_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seewnter/ros2_ws/build/my_ros2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seewnter/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/seewnter/ros2_ws/build/my_ros2_pkg/build install --record /home/seewnter/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data
